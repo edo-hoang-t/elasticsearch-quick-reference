@@ -257,7 +257,7 @@ GET /products/_search
 }
 ```
 
-# Delete by query
+# XI. Delete by query
 
 ## Deleting documents that match a given query
 
@@ -270,7 +270,7 @@ POST /products/_delete_by_query
 }
 ```
 
-## XI. Ignoring (counting) version conflicts
+## Ignoring (counting) version conflicts
 
 The `conflicts` key may be added as a query parameter instead, i.e. `?conflicts=proceed`.
 
